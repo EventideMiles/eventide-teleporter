@@ -5,16 +5,25 @@
             "TeleportTokensHint": "Teleport selected tokens to mouse cursor position"
         },
         "Settings": {
-            "Enabled": "Enable Teleporter",
-            "EnabledHint": "Enable or disable the teleporter functionality"
+            "Mode": "Teleporter Mode",
+            "ModeHint": "Set the teleporter mode: Off (disabled), Slow (click while holding key), or Fast (immediate)",
+            "ModeOff": "Off",
+            "ModeSlow": "Slow Mode",
+            "ModeFast": "Fast Mode",
+            "SnapToGrid": "Snap to Grid",
+            "SnapToGridHint": "Snap the teleported tokens to the nearest grid square center"
         },
         "Controls": {
             "Title": "Eventide Teleporter",
-            "Toggle": "Toggle Eventide Teleporter"
+            "ModeOff": "Teleporter: Off",
+            "ModeSlow": "Teleporter: Slow Mode",
+            "ModeFast": "Teleporter: Fast Mode"
         },
         "Notifications": {
-            "Enabled": "Eventide Teleporter enabled",
-            "Disabled": "Eventide Teleporter disabled",
+            "ModeOff": "Teleporter disabled",
+            "ModeSlow": "Teleporter set to Slow Mode (hold key + click)",
+            "ModeFast": "Teleporter set to Fast Mode (instant)",
+            "SlowModeInstruction": "Hold the teleport key and click where you want to teleport",
             "TokensTeleported": "{count} token(s) teleported successfully"
         },
         "Warnings": {
