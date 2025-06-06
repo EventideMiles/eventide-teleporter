@@ -1,6 +1,6 @@
 # Eventide Teleporter
 
-![Foundry v13.341+](https://img.shields.io/badge/foundry-v13.341+-green)
+![Foundry v13](https://img.shields.io/badge/foundry-v13-green)
 [![License: LGPL 2.1+](https://img.shields.io/badge/License-LGPL_2.1+-blue.svg)](https://www.gnu.org/licenses/lgpl-2.1.html)
 
 This module is built to handle teleporting players around the map for a gm. It comes with 3 modes:
