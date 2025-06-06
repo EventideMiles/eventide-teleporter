@@ -27,9 +27,9 @@
       "path": "lang/en.json"
     }
   ],
-  "url": "",
-  "manifest": "",
-  "download": "",
+  "url": "https://github.com/EventideMiles/eventide-teleporter",
+  "manifest": "https://github.com/EventideMiles/eventide-teleporter/releases/latest/download/module.json",
+  "download": "https://github.com/EventideMiles/eventide-teleporter/releases/latest/download/eventide-teleporter.zip",
   "license": "LICENSE.md",
-  "readme": ""
+  "readme": "README.md"
 }
