@@ -122,7 +122,7 @@ class EventideTeleporter {
                 'slow': 'EVENTIDE_TELEPORTER.Settings.ModeSlow',
                 'fast': 'EVENTIDE_TELEPORTER.Settings.ModeFast'
             },
-            default: 'off',
+            default: 'slow',
             onChange: (value) => {
                 // Prevent recursion by only updating if value actually changed
                 if (this.mode !== value) {
