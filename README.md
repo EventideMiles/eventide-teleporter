@@ -27,12 +27,13 @@ This module is built to handle teleporting players around the map for a gm. It c
 - The default keybinding is m. You can change it in foundry's Configure Controls menu.
 - The module will add a button to the left-hand side with the scene controls.
 - Clicking the button will cycle through the modes.
-  - Off: the module doesn't activate
-  - Slow: While holding the keybinding (settible: default m) you can click to teleport all selected tokens to your mouse position
-  - Fast: When you press the keybinding any selected tokens will telport to your mouse cursor.
-- Module settings:
-  - Snap to Grid: If enabled, the module will snap the teleported tokens to the nearest grid square center. (default: true)
-  - Mode: The mode to use when the module is activated. (default: slow)
+  - **Off:** the module doesn't activate
+  - **Slow:** While holding the keybinding (settible: default m) you can click to teleport all selected tokens to your mouse position
+  - **Fast:** When you press the keybinding any selected tokens will telport to your mouse cursor.
+
+# Module Settings
+- **Snap to Grid:** If enabled, the module will snap the teleported tokens to the nearest grid square center. (default: true)
+- **Mode:** The mode to use when the module is activated. (default: slow)
 
 # License
 This project is licensed under LGPL 2.1+. See the LICENSE.md file for more details.
