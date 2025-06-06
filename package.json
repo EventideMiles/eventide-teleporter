@@ -1,0 +1,30 @@
+{
+  "name": "eventide-teleporter",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A module for Foundry VTT that allows GMs to teleport tokens around the map.",
+  "scripts": {
+    "lint": "eslint scripts/**/*.mjs",
+    "lint:fix": "eslint scripts/**/*.mjs --fix",
+    "format": "prettier --write scripts/**/*.mjs",
+    "format:check": "prettier --check scripts/**/*.mjs",
+    "validate": "npm run lint && npm run format",
+    "dev": "nodemon --watch scripts --ext mjs --exec \"npm run lint:fix && npm run format\"",
+    "precommit": "npm run lint:fix && npm run format",
+    "release": "npm run release:linux || npm run release:win",
+    "release:linux": "bash release_script.sh",
+    "release:win": "release_script.bat"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Miles Eventide",
+  "license": "LGPL-2.1-or-later",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.3.3",
+    "terser": "^5.37.0"
+  }
+}
