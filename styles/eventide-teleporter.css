@@ -1,34 +1,23 @@
-/* Eventide Teleporter Styles */
-.eventide-teleporter {
-    &__control {
-        &--active {
-            color: var(--color-text-light-primary);
-            background: var(--color-bg-option);
-        }
-    }
-}
+/**
+ * Eventide Teleporter Styles
+ * Base styling for the scene control button - colors are applied programmatically
+ */
 
-/* Scene control button styling */
+/* Scene control button base styling */
 #controls .scene-control[data-tool="eventide-teleporter-control"] {
     position: relative;
-}
-
-#controls .scene-control[data-tool="eventide-teleporter-control"].active {
-    background: var(--color-bg-option);
-    box-shadow: 0 0 6px var(--color-shadow-primary);
+    transition: all 0.2s ease;
 }
 
 #controls .scene-control[data-tool="eventide-teleporter-control"]:hover {
     background: var(--color-bg-option);
 }
 
-/* SVG icon styling for the magic gate */
-#controls .scene-control[data-tool="eventide-teleporter-control"] img {
-    width: 20px;
-    height: 20px;
-    filter: brightness(0) invert(1);
+#controls .scene-control[data-tool="eventide-teleporter-control"].active {
+    box-shadow: 0 0 6px var(--color-shadow-primary);
 }
 
-#controls .scene-control[data-tool="eventide-teleporter-control"].active img {
-    filter: brightness(0) invert(1) sepia(1) saturate(5) hue-rotate(200deg);
+/* Icon styling */
+#controls .scene-control[data-tool="eventide-teleporter-control"] i {
+    font-size: 16px;
 } 
