@@ -1,0 +1,35 @@
+{
+  "id": "eventide-teleporter",
+  "title": "Eventide Teleporter",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>This project is meant to replace the simple teleport module I used for a long time. With foundry's new teleport system. Basically what this does is allows a keybinding (default: m)  to do the following:</p><ol><li><p>Set the currently selected tokens to teleport movement.</p></li><li><p>Set the GM's movement mode to unconstrained movement.</p></li><li><p>Move the token to where you're hovering when you press m stacked.</p></li><li><p>Set the selected tokens back to their original movement mode and the GM's movement settings back to whatever they were prior to the process starting.</p></li></ol><p>It will have a button on the left-hand side to enable and disable it so you don't do this unintentionally.</p>",
+  "authors": [
+    {
+      "name": "Miles Eventide",
+      "discord": "@lunarrush",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/eventide-teleporter.mjs"
+  ],
+  "styles": [
+    "styles/eventide-teleporter.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.md",
+  "readme": ""
+}

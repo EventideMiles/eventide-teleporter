@@ -1,0 +1,29 @@
+{
+    "EVENTIDE_TELEPORTER": {
+        "Keybind": {
+            "TeleportTokens": "Teleport Selected Tokens",
+            "TeleportTokensHint": "Teleport selected tokens to mouse cursor position"
+        },
+        "Settings": {
+            "Enabled": "Enable Teleporter",
+            "EnabledHint": "Enable or disable the teleporter functionality"
+        },
+        "Controls": {
+            "Title": "Eventide Teleporter",
+            "Toggle": "Toggle Eventide Teleporter"
+        },
+        "Notifications": {
+            "Enabled": "Eventide Teleporter enabled",
+            "Disabled": "Eventide Teleporter disabled",
+            "TokensTeleported": "{count} token(s) teleported successfully"
+        },
+        "Warnings": {
+            "GMOnly": "Only GMs can use the teleporter",
+            "NotEnabled": "Teleporter is not enabled. Click the teleporter button in the token controls to enable it.",
+            "NoTokensSelected": "No tokens selected for teleportation"
+        },
+        "Errors": {
+            "TeleportFailed": "Teleportation failed. Check console for details."
+        }
+    }
+} 
