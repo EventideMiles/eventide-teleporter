@@ -1,6 +1,6 @@
 {
   "name": "eventide-teleporter",
-  "version": "1.0.0",
+  "version": "14.0.0",
   "type": "module",
   "description": "A module for Foundry VTT that allows GMs to teleport tokens around the map.",
   "scripts": {
